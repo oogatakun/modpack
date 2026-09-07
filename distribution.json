@@ -8,6 +8,48 @@
   },
   "servers": [
     {
+      "id": "バニラ+軽量化-1.19.2",
+      "name": "バニラ+軽量化 (Minecraft 1.19.2)",
+      "description": "バニラ+軽量化 Running Minecraft 1.19.2 (Forge v43.5.2)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.19.2-43.5.2:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7130043,
+            "MD5": "b467b4b2dba2caf624567778eb275ae1",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.19.2-43.5.2/forge-1.19.2-43.5.2-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75237482,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
+            "MD5": "a9cbde2b7f0e8ba26ac54165afe39220"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
       "id": "バニラ+軽量化便利1.20.1-1.20.1",
       "name": "バニラ+軽量化便利1.20.1 (Minecraft 1.20.1)",
       "description": "バニラ+軽量化便利1.20.1 Running Minecraft 1.20.1 (Forge v47.4.20)",
