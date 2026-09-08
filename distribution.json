@@ -8,6 +8,89 @@
   },
   "servers": [
     {
+      "id": "numahub-1.20.1",
+      "name": "numahub (Minecraft 1.20.1)",
+      "description": "numahub Running Minecraft 1.20.1 (Forge v47.4.23)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.23:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 8836161,
+            "MD5": "0efd54f3856e2e66d044d15c4ffd30d3",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.23/forge-1.20.1-47.4.23-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "generated.forgemod:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:worldeditcui:1.20+01@jar",
+          "name": "WorldEditCUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168681,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/WorldEditCUI-1.20+01.jar",
+            "MD5": "be7a269d42197118f62271b60d3cc299"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaerominimap:26.4.2@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2195245,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/xaerominimap-forge-1.20.1-26.4.2.jar",
+            "MD5": "f6019f3ba0925782cc3cd8405cc80259"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaeroworldmap:1.45.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1424881,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/xaeroworldmap-forge-1.20.1-1.45.0.jar",
+            "MD5": "2595aef0d735d799dfd1000f042f8c7b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        }
+      ]
+    },
+    {
       "id": "バニラ+軽量化-1.19.2",
       "name": "バニラ+軽量化 (Minecraft 1.19.2)",
       "description": "バニラ+軽量化 Running Minecraft 1.19.2 (Forge v43.5.2)",
@@ -42,6 +125,19 @@
             "size": 75238140,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT-dev.jar",
             "MD5": "4406b5702f6614bf190b1edf0413aa06"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75237482,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
+            "MD5": "a9cbde2b7f0e8ba26ac54165afe39220"
           },
           "required": {
             "value": false
