@@ -122,19 +122,6 @@
           "name": "VideoPlayer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 75238140,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT-dev.jar",
-            "MD5": "4406b5702f6614bf190b1edf0413aa06"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
-          "name": "VideoPlayer",
-          "type": "ForgeMod",
-          "artifact": {
             "size": 75237482,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
             "MD5": "a9cbde2b7f0e8ba26ac54165afe39220"
