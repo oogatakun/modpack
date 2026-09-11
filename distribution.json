@@ -48,6 +48,16 @@
           }
         },
         {
+          "id": "generated.forgemod:chiselsandbits:20.1.20@jar",
+          "name": "Chisels-and-bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2104697,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/chisels-and-bits-forge-20.1.20.jar",
+            "MD5": "bf88aa872ea08a8ba22ae60564eefcfd"
+          }
+        },
+        {
           "id": "generated.forgemod:mousetweaks:2.25.1@jar",
           "name": "Mouse Tweaks",
           "type": "ForgeMod",
