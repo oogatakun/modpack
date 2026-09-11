@@ -35,6 +35,84 @@
           "subModules": []
         },
         {
+<<<<<<< HEAD
+=======
+          "id": "generated.forgemod:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15889,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/BetterPingDisplay-1.20.1-1.1.jar",
+            "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:chiselsandbits:20.1.20@jar",
+          "name": "Chisels-and-bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2104697,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/chisels-and-bits-forge-20.1.20.jar",
+            "MD5": "bf88aa872ea08a8ba22ae60564eefcfd"
+          }
+        },
+        {
+          "id": "generated.forgemod:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:oauthaccountmanager:1.0.0.4@jar",
+          "name": "OAuth Account Manager",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223146,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/oauth-account-manager-forge-1.20.1-1.0.0.4.jar",
+            "MD5": "ba3c7e687a1d37dcd701900823c1bb0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:uteamcore:5.1.4.382@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 587742,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/u_team_core-forge-1.20.1-5.1.4.382.jar",
+            "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56054143,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
+            "MD5": "18f0ff5464433377b64692b97b10dc30"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+>>>>>>> a05751724621279cf8cf2ba1bcd0d138832167de
           "id": "generated.forgemod:worldedit:7.2.15+6463-5ca4dff@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",
