@@ -63,6 +63,16 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6254897,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          }
+        },
+        {
+          "id": "generated.forgemod:mts:24.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6254897,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Immersive%20Vehicles-1.20.1-24.0.0.jar",
             "MD5": "96fd07315c988dff6e5dff255ec4ba79"
           },
@@ -84,6 +94,19 @@
           }
         },
         {
+          "id": "generated.forgemod:mtsofficialpack:29@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70997298,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MTS%20Official%20Pack-1.20.1-V29.jar",
+            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:oauthaccountmanager:1.0.0.4@jar",
           "name": "OAuth Account Manager",
           "type": "ForgeMod",
@@ -91,6 +114,19 @@
             "size": 223146,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/oauth-account-manager-forge-1.20.1-1.0.0.4.jar",
             "MD5": "ba3c7e687a1d37dcd701900823c1bb0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:truckpack:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46935713,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/TruckPack_0.5-1.20.1.jar",
+            "MD5": "99c8279b9e12d6adc65ab5e065386e83"
           },
           "required": {
             "value": false
