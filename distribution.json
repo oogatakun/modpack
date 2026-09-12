@@ -1,0 +1,801 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "numahub-1.20.1",
+      "name": "numahub (Minecraft 1.20.1)",
+      "description": "numahub Running Minecraft 1.20.1 (Forge v47.4.23)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.23:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 8836161,
+            "MD5": "0efd54f3856e2e66d044d15c4ffd30d3",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.23/forge-1.20.1-47.4.23-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "generated.forgemod:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15889,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/BetterPingDisplay-1.20.1-1.1.jar",
+            "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:chiselsandbits:20.1.20@jar",
+          "name": "Chisels-and-bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2104697,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/chisels-and-bits-forge-20.1.20.jar",
+            "MD5": "bf88aa872ea08a8ba22ae60564eefcfd"
+          }
+        },
+        {
+          "id": "generated.forgemod:mts:24.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6254897,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          }
+        },
+        {
+          "id": "generated.forgemod:mts:24.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6254897,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:oauthaccountmanager:1.0.0.4@jar",
+          "name": "OAuth Account Manager",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223146,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/oauth-account-manager-forge-1.20.1-1.0.0.4.jar",
+            "MD5": "ba3c7e687a1d37dcd701900823c1bb0f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:uteamcore:5.1.4.382@jar",
+          "name": "U Team Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 587742,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/u_team_core-forge-1.20.1-5.1.4.382.jar",
+            "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56054143,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
+            "MD5": "18f0ff5464433377b64692b97b10dc30"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:worldeditcui:1.20+01@jar",
+          "name": "WorldEditCUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 168681,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/WorldEditCUI-1.20+01.jar",
+            "MD5": "be7a269d42197118f62271b60d3cc299"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaerominimap:26.4.2@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2195245,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/xaerominimap-forge-1.20.1-26.4.2.jar",
+            "MD5": "f6019f3ba0925782cc3cd8405cc80259"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaeroworldmap:1.45.0@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1424881,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/xaeroworldmap-forge-1.20.1-1.45.0.jar",
+            "MD5": "2595aef0d735d799dfd1000f042f8c7b"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "バニラ+軽量化-1.19.2",
+      "name": "バニラ+軽量化 (Minecraft 1.19.2)",
+      "description": "バニラ+軽量化 Running Minecraft 1.19.2 (Forge v43.5.2)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.19.2-43.5.2:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 7130043,
+            "MD5": "b467b4b2dba2caf624567778eb275ae1",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.19.2-43.5.2/forge-1.19.2-43.5.2-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75238140,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT-dev.jar",
+            "MD5": "4406b5702f6614bf190b1edf0413aa06"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vplayer:5.0-SNAPSHOT@jar",
+          "name": "VideoPlayer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75237482,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96-1.19.2/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
+            "MD5": "a9cbde2b7f0e8ba26ac54165afe39220"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "バニラ+軽量化便利1.20.1-1.20.1",
+      "name": "バニラ+軽量化便利1.20.1 (Minecraft 1.20.1)",
+      "description": "バニラ+軽量化便利1.20.1 Running Minecraft 1.20.1 (Forge v47.4.20)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.20.1-47.4.20:installer",
+          "name": "Minecraft Forge (installer)",
+          "type": "Forge",
+          "artifact": {
+            "size": 8835110,
+            "MD5": "f3dcf8197c22e3f8ba717dbbbfe74ec6",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-installer.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "generated.forgemod:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:better:suggestions-1.20.1-1.2.2.1@jar",
+          "name": "Better",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127402,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/better-suggestions-1.20.1-1.2.2.1.jar",
+            "MD5": "f613b5d1cda7d9039b8f8c56bbf0c9ea"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:betteradvancements:0.4.2.59@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98374,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/BetterAdvancements-NeoForge-1.20.1-0.4.2.59.jar",
+            "MD5": "7437eecbeeb186d3550634489694bbdd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:betterpingdisplay:1.1@jar",
+          "name": "Better Ping Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15889,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/BetterPingDisplay-1.20.1-1.1.jar",
+            "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:c2me:fabric-mc1.20.1-0.2.0+alpha.11.18@jar",
+          "name": "C2me",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1426510,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/c2me-fabric-mc1.20.1-0.2.0+alpha.11.18.jar",
+            "MD5": "0661828bcdf630d15d537783861d0074"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:chat_heads:0.15.2@jar",
+          "name": "Chat Heads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 722643,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/chat_heads-0.15.2-forge-1.20.jar",
+            "MD5": "4a52fd19e9b20fe5f399d7d435f0f32b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:chunky:1.3.146@jar",
+          "name": "Chunky",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 341451,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/Chunky-1.3.146.jar",
+            "MD5": "ed46120ac4f30ec8e03f6416e295577c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:commandkeys:2.4.0+1.20.1@jar",
+          "name": "CommandKeys",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 433397,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/commandkeys-forge-2.4.0+1.20.1.jar",
+            "MD5": "d739a3e777a0b53190062b403a00f09f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:connector:1.0.0-beta.48+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043870,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/Connector-1.0.0-beta.48+1.20.1.jar",
+            "MD5": "3abc5720b82e8d9f8986f65776b8cfe0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:crash_assistant:1.11.10@jar",
+          "name": "Crash Assistant",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3181623,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/CrashAssistant-forge-1.19-1.20.1-1.11.10.jar",
+            "MD5": "32c9e89c2fecb46baabe76568158a6d7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:e4mc:6.1.0@jar",
+          "name": "E4mc",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1281461,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/e4mc-forge-6.1.0.jar",
+            "MD5": "c69873274a09f86726cf454dc92f50dd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:entityculling:1.10.2@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1587585,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/entityculling-forge-1.10.2-mc1.20.1.jar",
+            "MD5": "e3a7a09778b3f7358738277dac5c2dd5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:extremesoundmuffler:3.51@jar",
+          "name": "Extreme Sound Muffler",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270331,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/ExtremeSoundMuffler-3.51-forge-1.20.1.jar",
+            "MD5": "b7821e5adbeeea69b6877851f803e350"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:fabric_api:0.92.6+1.11.14+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:fabric:language-kotlin-1.13.12+kotlin.2.4.0@jar",
+          "name": "Fabric",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8076848,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/fabric-language-kotlin-1.13.12+kotlin.2.4.0.jar",
+            "MD5": "dff437aac8aae6eb76ae9db6b6ea9cb0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:fastipping:1.0.11@jar",
+          "name": "Fast IP Ping",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10408,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/fast-ip-ping-v1.0.11-mc1.20.4-forge.jar",
+            "MD5": "252b997eff7a4e1e5ba39c56e589f3ae"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:freecam:1.2.1+1.20@jar",
+          "name": "Freecam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75389,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionaloff/freecam-forge-1.2.1+1.20.jar",
+            "MD5": "3301388f64a2bcbc760ca33324bca2c0"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:gamma:Utils-1.7.16-mc1.20.1@jar",
+          "name": "Gamma",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57562,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionaloff/Gamma-Utils-1.7.16-mc1.20.1.jar.disabled",
+            "MD5": "7587264df2067fbd3ccc56da5544adea"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:immediatelyfast:1.5.5+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 532063,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+            "MD5": "4d776686d7da62146099484b8c9e14af"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionaloff/Jade-1.20.1-Forge-11.13.2.jar.disabled",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:morechathistory:1.3.0@jar",
+          "name": "Morechathistory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3546,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/morechathistory-1.3.0.jar",
+            "MD5": "1980ac8b5b66417091d101682af8865c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:notenoughcrashes:4.4.9+1.20.1@jar",
+          "name": "Not Enough Crashes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134885,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/notenoughcrashes-4.4.9+1.20.1-forge.jar",
+            "MD5": "59f7bd924454a832b87998999d58eea7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:resourcify:1.8.3@jar",
+          "name": "Resourcify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2631396,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/Resourcify%20(1.20.1-forge)-1.8.3.jar",
+            "MD5": "dad31c0f00c28fce12edbddc88ae7007"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:roughlyenoughitems:12.1.785@jar",
+          "name": "Roughly Enough Items (REI)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2384003,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/RoughlyEnoughItems-12.1.785-forge.jar",
+            "MD5": "789cc933dc48d77a49e17edf607b602d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:embeddium_extra:0.5.4.4+mc1.20.1-build.131@jar",
+          "name": "Embeddium Extra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 568608,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+            "MD5": "a96fb0a07b75eb07b200e8f9c0dfb9f4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:server_waypoint:3.0.3@jar",
+          "name": "Server Waypoint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 851411,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/server_waypoint-3.0.3-forge-mc1.20-1.20.1.jar",
+            "MD5": "f533d3c460da71af8fc5e54caeca867a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:skinrestorer:2.7.0+1.20-forge@jar",
+          "name": "SkinRestorer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 250394,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/skinrestorer-2.7.0+1.20-forge.jar",
+            "MD5": "3e88a98d39d9feeedb07d0925dbc9809"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:spark:1.10.53@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3114590,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/spark-1.10.53-forge.jar",
+            "MD5": "95dcd3b5400cc5eb5d0478a744e6ef98"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:statuseffectbars:1.0.3@jar",
+          "name": "Status Effect Bars",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212980,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/statuseffectbars-1.20.1-Forge-1.0.3.jar",
+            "MD5": "805db6fc3cd3bfbf988c324b70a6fea4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:suggestion_tweaker:1.20-1.5.2@jar",
+          "name": "Suggestion Tweaker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25498,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionaloff/suggestion-tweaker-1.20-1.5.2-forge.jar.disabled",
+            "MD5": "f16a29a6598655b4e5c68fde478baf66"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaerominimap:26.1.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2147158,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionaloff/xaerominimap-forge-1.20.1-26.1.0.jar.disabled",
+            "MD5": "35779121a4073ba1097db4e5042d61e3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:xaeroworldmap:1.41.2@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1390482,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/%E3%83%90%E3%83%8B%E3%83%A9+%E8%BB%BD%E9%87%8F%E5%8C%96%E4%BE%BF%E5%88%A91.20.1-1.20.1/forgemods/optionalon/xaeroworldmap-forge-1.20.1-1.41.2.jar",
+            "MD5": "8e5480d7ea106fb6da96e3a84f8dfe03"
+          },
+          "required": {
+            "value": false
+          }
+        }
+      ]
+    }
+  ]
+}
