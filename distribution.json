@@ -35,6 +35,48 @@
           "subModules": []
         },
         {
+          "id": "generated.forgemod:Repair_LancerEvoVIII_Pack:1.20.1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66581506,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/repair-car-pack-immersive-vehicles-iv-mts/download/7855775",
+            "MD5": "6d5042fe15e55a25614ac518cd112011"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:MTS Official Pack:1.20.1-V29@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70997298,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/transport-simulator-official-vehicle-set/download/7933733",
+            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:TruckPack_0.5:1.20.1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46935713,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/truckers-pack-immersive-vehicles-iv-mts/download/8682641",
+            "MD5": "99c8279b9e12d6adc65ab5e065386e83"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "generated.forgemod:betterpingdisplay:1.1@jar",
           "name": "Better Ping Display",
           "type": "ForgeMod",
@@ -111,20 +153,6 @@
           }
         },
         {
-          "id": "generated.forgemod:MTS Official Pack:1.20.1-V29@jar",
-          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 70997298,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/MTS%20Official%20Pack-1.20.1-V29.jar",
-            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "generated.forgemod:newnpcmod:3.0.0@jar",
           "name": "New NPC Mod",
           "type": "ForgeMod",
@@ -148,34 +176,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:Repair_LancerEvoVIII_Pack:1.20.1@jar",
-          "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 66581506,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/Repair_LancerEvoVIII_Pack-1.20.1.jar",
-            "MD5": "6d5042fe15e55a25614ac518cd112011"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
-          "id": "generated.forgemod:TruckPack_0.5:1.20.1@jar",
-          "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 46935713,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/TruckPack_0.5-1.20.1.jar",
-            "MD5": "99c8279b9e12d6adc65ab5e065386e83"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
