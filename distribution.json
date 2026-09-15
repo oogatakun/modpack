@@ -58,6 +58,55 @@
           }
         },
         {
+          "id": "generated.forgemod:experiarch:1.8@jar",
+          "name": "ExperiArch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3215464,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Experiarch%20v1.8%20(Forge%201.20.1).jar",
+            "MD5": "b6fe3654284cd41f9528d761d4f5bdf5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:gtalike_teleport:1.20.1-forge-build300@jar",
+          "name": "Grand Teleport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1157845,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/grand-teleport-forge-1.20.1-forge-build300.jar",
+            "MD5": "7d250a384ac62fcb9054d94e8614e764"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mts:24.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6254897,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          }
+        },
+        {
+          "id": "generated.forgemod:moreplayermodels:1.20.1.20240409@jar",
+          "name": "More Player Models",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1126197,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MorePlayerModels-1.20.1.20240409.jar",
+            "MD5": "72565b73bd5a75eed3d266491b1f3c01"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:mousetweaks:2.25.1@jar",
           "name": "Mouse Tweaks",
           "type": "ForgeMod",
@@ -65,6 +114,19 @@
             "size": 76237,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
             "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:newnpcmod:3.0.0@jar",
+          "name": "New NPC Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1929905,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/NewNPC-Mod-forge-1.20.1-3.0.0.jar",
+            "MD5": "7d4dddaa82e57c7bfebb048d3213dcbc"
           },
           "required": {
             "value": false
@@ -84,6 +146,32 @@
           }
         },
         {
+          "id": "generated.forgemod:repair:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66581506,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Repair_LancerEvoVIII_Pack-1.20.1.jar",
+            "MD5": "6d5042fe15e55a25614ac518cd112011"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:truckpack:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46935713,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/TruckPack_0.5-1.20.1.jar",
+            "MD5": "99c8279b9e12d6adc65ab5e065386e83"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:uteamcore:5.1.4.382@jar",
           "name": "U Team Core",
           "type": "ForgeMod",
@@ -91,6 +179,19 @@
             "size": 587742,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/u_team_core-forge-1.20.1-5.1.4.382.jar",
             "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:ui_modern_interior:6.4@jar",
+          "name": "Ultimate Immersion Modern Archviz",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7905040,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Ultimate%20Immersion%20Modern%20Archviz%20v6.4%20(Forge%201.20.1).jar",
+            "MD5": "0159d4c608bc86714d75a836441e1f38"
           },
           "required": {
             "value": false
