@@ -1,0 +1,14 @@
+{
+  "id": "generated.forgemod:Repair_LancerEvoVIII_Pack:1.20.1@jar",
+  "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 66581506,
+    "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/Repair_LancerEvoVIII_Pack-1.20.1.jar",
+    "MD5": "6d5042fe15e55a25614ac518cd112011"
+  },
+  "required": {
+    "value": false,
+    "def": false
+  }
+}

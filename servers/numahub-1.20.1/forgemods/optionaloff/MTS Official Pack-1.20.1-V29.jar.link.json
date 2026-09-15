@@ -1,0 +1,14 @@
+{
+  "id": "generated.forgemod:MTS Official Pack:1.20.1-V29@jar",
+  "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+  "type": "ForgeMod",
+  "artifact": {
+    "size": 70997298,
+    "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/MTS%20Official%20Pack-1.20.1-V29.jar",
+    "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
+  },
+  "required": {
+    "value": false,
+    "def": false
+  }
+}
