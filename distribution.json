@@ -239,6 +239,17 @@
           }
         },
         {
+          "id": "MTS Official Pack-1.20.1-V29.jar",
+          "name": "MTS Official Pack-1.20.1-V29.jar",
+          "type": "File",
+          "artifact": {
+            "size": 70997298,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/MTS%20Official%20Pack-1.20.1-V29.jar",
+            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7",
+            "path": "mods/MTS Official Pack-1.20.1-V29.jar"
+          }
+        },
+        {
           "id": "Repair_LancerEvoVIII_Pack-1.20.1.jar",
           "name": "Repair_LancerEvoVIII_Pack-1.20.1.jar",
           "type": "File",
