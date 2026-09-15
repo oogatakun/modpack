@@ -58,19 +58,6 @@
           }
         },
         {
-          "id": "generated.forgemod:experiarch:1.8@jar",
-          "name": "ExperiArch",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3215464,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Experiarch%20v1.8%20(Forge%201.20.1).jar",
-            "MD5": "b6fe3654284cd41f9528d761d4f5bdf5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.forgemod:gtalike_teleport:1.20.1-forge-build300@jar",
           "name": "Grand Teleport",
           "type": "ForgeMod",
@@ -199,19 +186,6 @@
             "size": 587742,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/u_team_core-forge-1.20.1-5.1.4.382.jar",
             "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:ui_modern_interior:6.4@jar",
-          "name": "Ultimate Immersion Modern Archviz",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7905040,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Ultimate%20Immersion%20Modern%20Archviz%20v6.4%20(Forge%201.20.1).jar",
-            "MD5": "0159d4c608bc86714d75a836441e1f38"
           },
           "required": {
             "value": false
