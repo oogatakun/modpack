@@ -185,6 +185,19 @@
           }
         },
         {
+          "id": "generated.forgemod:wacanvas:1.0@jar",
+          "name": "WaCanvas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117839,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/wacanvas-forge-1.20.1-1.0.jar",
+            "MD5": "2573ee4798653237fab8fda8b9739204"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:worldedit:7.2.15+6463-5ca4dff@jar",
           "name": "WorldEdit",
           "type": "ForgeMod",
