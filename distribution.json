@@ -146,7 +146,7 @@
           }
         },
         {
-          "id": "generated.forgemod:repair:1@jar",
+          "id": "generated.forgemod:Repair_LancerEvoVIII_Pack:1.20.1@jar",
           "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
           "type": "ForgeMod",
           "artifact": {
@@ -159,7 +159,7 @@
           }
         },
         {
-          "id": "generated.forgemod:truckpack:1@jar",
+          "id": "generated.forgemod:TruckPack_0.5:1.20.1@jar",
           "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
           "type": "ForgeMod",
           "artifact": {
