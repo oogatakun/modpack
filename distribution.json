@@ -89,8 +89,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6254897,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/Immersive%20Vehicles-1.20.1-24.0.0.jar",
             "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -120,6 +124,20 @@
           }
         },
         {
+          "id": "generated.forgemod:mtsofficialpack:29@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70997298,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/MTS%20Official%20Pack-1.20.1-V29.jar",
+            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "generated.forgemod:newnpcmod:3.0.0@jar",
           "name": "New NPC Mod",
           "type": "ForgeMod",
@@ -143,6 +161,34 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:repair:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Repair Lancer Evo VIII",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66581506,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/Repair_LancerEvoVIII_Pack-1.20.1.jar",
+            "MD5": "6d5042fe15e55a25614ac518cd112011"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:truckpack:1@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Truck Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46935713,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/TruckPack_0.5-1.20.1.jar",
+            "MD5": "99c8279b9e12d6adc65ab5e065386e83"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -249,39 +295,6 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "MTS Official Pack-1.20.1-V29.jar",
-          "name": "MTS Official Pack-1.20.1-V29.jar",
-          "type": "File",
-          "artifact": {
-            "size": 70997298,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/MTS%20Official%20Pack-1.20.1-V29.jar",
-            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7",
-            "path": "mods/MTS Official Pack-1.20.1-V29.jar"
-          }
-        },
-        {
-          "id": "Repair_LancerEvoVIII_Pack-1.20.1.jar",
-          "name": "Repair_LancerEvoVIII_Pack-1.20.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 66581506,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/Repair_LancerEvoVIII_Pack-1.20.1.jar",
-            "MD5": "6d5042fe15e55a25614ac518cd112011",
-            "path": "mods/Repair_LancerEvoVIII_Pack-1.20.1.jar"
-          }
-        },
-        {
-          "id": "TruckPack_0.5-1.20.1.jar",
-          "name": "TruckPack_0.5-1.20.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 46935713,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/TruckPack_0.5-1.20.1.jar",
-            "MD5": "99c8279b9e12d6adc65ab5e065386e83",
-            "path": "mods/TruckPack_0.5-1.20.1.jar"
           }
         }
       ]
