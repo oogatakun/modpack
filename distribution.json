@@ -180,9 +180,9 @@
           "name": "VideoPlayer",
           "type": "ForgeMod",
           "artifact": {
-            "size": 56055491,
+            "size": 56054568,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/vplayer-5.0-SNAPSHOT.jar",
-            "MD5": "47ea883f447c51f7db89ab8d8ce1a6e2"
+            "MD5": "68ea3f6751458b2ffbdc76da5e35a5aa"
           },
           "required": {
             "value": false
