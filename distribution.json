@@ -48,19 +48,6 @@
           }
         },
         {
-          "id": "generated.forgemod:caelus:3.2.0+1.20.1@jar",
-          "name": "Caelus API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 40125,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/caelus-forge-3.2.0+1.20.1.jar",
-            "MD5": "e37854c44b1849b753afc4a205f31b46"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.forgemod:chiselsandbits:20.1.20@jar",
           "name": "Chisels-and-bits",
           "type": "ForgeMod",
@@ -78,6 +65,19 @@
             "size": 1157845,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/grand-teleport-forge-1.20.1-forge-build300.jar",
             "MD5": "7d250a384ac62fcb9054d94e8614e764"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:identity:2.7.1-1.20.1@jar",
+          "name": "Identity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235366,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/identity-2.7.1-1.20.1-forge.jar",
+            "MD5": "fc6e3b9997782541cf92f0ca24f141f9"
           },
           "required": {
             "value": false
@@ -144,19 +144,6 @@
             "size": 223146,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/oauth-account-manager-forge-1.20.1-1.0.0.4.jar",
             "MD5": "ba3c7e687a1d37dcd701900823c1bb0f"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:origins:1.20.1-1.10.0.9@jar",
-          "name": "Origins",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2307868,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/origins-forge-1.20.1-1.10.0.9-all.jar",
-            "MD5": "354f0f804636e76e1efcd16f2ae245d3"
           },
           "required": {
             "value": false
