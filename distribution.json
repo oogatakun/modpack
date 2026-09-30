@@ -163,6 +163,32 @@
           }
         },
         {
+          "id": "generated.forgemod:simplevoicechat_broadcast:1.0.1@jar",
+          "name": "SimpleVoiceChat Broadcast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7302,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/simplevoicechat_broadcast-mc1.20.1-1.0.1.jar",
+            "MD5": "b3f7f2922c3599ebf908e491d34de86d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:simplevoicedistance:1.6.1@jar",
+          "name": "Simple Voice Distance",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61646,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/simplevoicedistance-1.6.1-forge1.20.1.jar",
+            "MD5": "77c4051e3b01859260fdec325479b917"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:uteamcore:5.1.4.382@jar",
           "name": "U Team Core",
           "type": "ForgeMod",
@@ -170,6 +196,45 @@
             "size": 587742,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/u_team_core-forge-1.20.1-5.1.4.382.jar",
             "MD5": "cd46e7fbd2e4527015dd69dffe3e40a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vcadmin:1.1.0+1.20.1-forge@jar",
+          "name": "VC Admin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53900,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/vcadmin-1.1.0+1.20.1-forge.jar",
+            "MD5": "bc14ceedeae022695543b5529c6ca4b3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:vc_audio_distance:2.7.0+mc1.20.1@jar",
+          "name": "Voice Physics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525796,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/voice-physics-forge-2.7.0+mc1.20.1.jar",
+            "MD5": "0f9155550bbfa09f1af0f144af00daa5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:voicechat:1.20.1-2.6.24@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4939842,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/voicechat-forge-1.20.1-2.6.24.jar",
+            "MD5": "e8ed62e5ae1ac3ab7567de4e7545e5c6"
           },
           "required": {
             "value": false
