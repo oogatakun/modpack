@@ -87,6 +87,16 @@
           }
         },
         {
+          "id": "generated.forgemod:mts:24.0.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6254897,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          }
+        },
+        {
           "id": "generated.forgemod:moreplayermodels:1.20.1.20240409@jar",
           "name": "More Player Models",
           "type": "ForgeMod",
@@ -118,11 +128,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1929905,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/NewNPC-Mod-forge-1.20.1-3.0.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/NewNPC-Mod-forge-1.20.1-3.0.0.jar",
             "MD5": "7d4dddaa82e57c7bfebb048d3213dcbc"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -304,6 +315,17 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "OAmP-1.20.1-V3.jar",
+          "name": "OAmP-1.20.1-V3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24285160,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/OAmP-1.20.1-V3.jar",
+            "MD5": "a74433ea0d09a4b67c4ba3eb76350324",
+            "path": "mods/OAmP-1.20.1-V3.jar"
           }
         }
       ]
