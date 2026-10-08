@@ -92,8 +92,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6254897,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/Immersive%20Vehicles-1.20.1-24.0.0.jar",
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Immersive%20Vehicles-1.20.1-24.0.0.jar",
             "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -117,6 +120,19 @@
             "size": 76237,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
             "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mtsofficialpack:29@jar",
+          "name": "Immersive Vehicles (MTS/IV) - Official Content Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70997298,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/MTS%20Official%20Pack-1.20.1-V29.jar",
+            "MD5": "f21a397cce53a4ef26c09c1c65a6a3d7"
           },
           "required": {
             "value": false
@@ -315,17 +331,6 @@
           "required": {
             "value": false,
             "def": false
-          }
-        },
-        {
-          "id": "OAmP-1.20.1-V3.jar",
-          "name": "OAmP-1.20.1-V3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 24285160,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/files/mods/OAmP-1.20.1-V3.jar",
-            "MD5": "a74433ea0d09a4b67c4ba3eb76350324",
-            "path": "mods/OAmP-1.20.1-V3.jar"
           }
         }
       ]
