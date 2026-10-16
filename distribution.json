@@ -61,6 +61,19 @@
           }
         },
         {
+          "id": "generated.forgemod:clientresetpacket:0.0.6@jar",
+          "name": "Client Reset Packet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12869,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/ForgeClientResetPacket-0.3.1.jar",
+            "MD5": "a5957f3448beeae5a07a4924f7f30e95"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:gtalike_teleport:1.20.1-forge-build300@jar",
           "name": "Grand Teleport",
           "type": "ForgeMod",
