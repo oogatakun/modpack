@@ -61,6 +61,32 @@
           }
         },
         {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.forgemod:clientresetpacket:0.0.6@jar",
           "name": "Client Reset Packet",
           "type": "ForgeMod",
@@ -107,6 +133,19 @@
             "size": 6254897,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/Immersive%20Vehicles-1.20.1-24.0.0.jar",
             "MD5": "96fd07315c988dff6e5dff255ec4ba79"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:modernfix:5.27.85+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1003271,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/modernfix-forge-5.27.85+mc1.20.1.jar",
+            "MD5": "64d362fb435b59f6da2e27d5e53c089a"
           },
           "required": {
             "value": false
