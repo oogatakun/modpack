@@ -35,19 +35,6 @@
           "subModules": []
         },
         {
-          "id": "generated.forgemod:architectury:9.2.14@jar",
-          "name": "Architectury",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 580602,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/architectury-9.2.14-forge.jar",
-            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "generated.forgemod:betterpingdisplay:1.1@jar",
           "name": "Better Ping Display",
           "type": "ForgeMod",
@@ -55,19 +42,6 @@
             "size": 15889,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/BetterPingDisplay-1.20.1-1.1.jar",
             "MD5": "2a331e8f5a7cc2609d67f7975fba7d7e"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
-          "name": "Continuity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1016666,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/continuity-3.0.0+1.20.1.forge.jar",
-            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
           },
           "required": {
             "value": false
@@ -94,32 +68,6 @@
             "size": 12869,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/ForgeClientResetPacket-0.3.1.jar",
             "MD5": "a5957f3448beeae5a07a4924f7f30e95"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:gtalike_teleport:1.20.1-forge-build300@jar",
-          "name": "Grand Teleport",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1157845,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/grand-teleport-forge-1.20.1-forge-build300.jar",
-            "MD5": "7d250a384ac62fcb9054d94e8614e764"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:identity:2.7.1-1.20.1@jar",
-          "name": "Identity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 235366,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/identity-2.7.1-1.20.1-forge.jar",
-            "MD5": "fc6e3b9997782541cf92f0ca24f141f9"
           },
           "required": {
             "value": false
@@ -175,20 +123,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "generated.forgemod:newnpcmod:3.0.0@jar",
-          "name": "New NPC Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1929905,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionaloff/NewNPC-Mod-forge-1.20.1-3.0.0.jar",
-            "MD5": "7d4dddaa82e57c7bfebb048d3213dcbc"
-          },
-          "required": {
-            "value": false,
-            "def": false
           }
         },
         {
