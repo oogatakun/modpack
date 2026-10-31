@@ -143,9 +143,9 @@
           "name": "Radio Mod",
           "type": "ForgeMod",
           "artifact": {
-            "size": 30636840,
+            "size": 30637664,
             "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/optionalon/radiomod-0.1.0.jar",
-            "MD5": "e441ffdfc8bc508710ac361da096816b"
+            "MD5": "2d9a111533ec794cc0eaa6b24c3ffce5"
           },
           "required": {
             "value": false
