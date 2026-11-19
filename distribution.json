@@ -243,13 +243,13 @@
           }
         },
         {
-          "id": "generated.forgemod:wablock:1.0.1@jar",
+          "id": "generated.forgemod:wablock:2.0@jar",
           "name": "WaBlock MOD",
           "type": "ForgeMod",
           "artifact": {
-            "size": 32927780,
-            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/wablock-1.20.1-1.0.1.jar",
-            "MD5": "dfb221b017176c0f23d7e3e9f693dd4c"
+            "size": 39779598,
+            "url": "https://raw.githubusercontent.com/oogatakun/modpack/refs/heads/main/servers/numahub-1.20.1/forgemods/required/wablock-1.20.1-2.0.jar",
+            "MD5": "6b3b16597e8f07d3cc6a6b59dd3d4c32"
           }
         },
         {
